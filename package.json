@@ -2,10 +2,15 @@
   "name": "turbo-qiankun-template",
   "private": true,
   "scripts": {
+    "start": "npm-run-all --parallel start:*",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start:micro-base": "cd apps/micro-base && npm run dev",
+    "start:react-app": "cd apps/react-app && npm run dev",
+    "start:umi-app": "cd apps/umi-app && npm run dev",
+    "start:vue-app": "cd apps/vue-app && npm run dev"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
