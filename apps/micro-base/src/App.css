@@ -1,0 +1,13 @@
+@import '~antd/dist/antd.css';
+.ant-layout {
+  height: 100%;
+}
+
+.page-logo {
+  height: 36px;
+  margin: 22px 0;
+}
+
+.ant-layout-sider-children {
+  text-align: center;
+}

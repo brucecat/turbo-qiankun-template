@@ -1,0 +1,22 @@
+{
+  "name": "umi-app",
+  "private": true,
+  "author": "lvjiaqi <lvjiaqi@itcast.cn>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@umijs/plugins": "^4.0.28",
+    "axios": "^1.1.3",
+    "umi": "^4.0.28"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
